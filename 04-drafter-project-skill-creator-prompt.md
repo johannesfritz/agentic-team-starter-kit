@@ -1,12 +1,33 @@
-# Skill Creator — Three-Section Policy Brief Format
+# Skill 1 — Three-Section Policy Brief Format
 
-**What to do**
-1. On `claude.ai`, open the Skill Creator (Settings → Skills → Create skill).
-2. Paste the body below as the description / instructions input.
-3. If the Skill Creator UI accepts attachments, attach `03-drafter-project-knowledge.md` as the reference file. If not, the same file lives in the Drafter Project's Knowledge tab and the Skill will reference it from there.
-4. Once created, attach the resulting Skill to the **Policy Brief Drafter** Project.
+This file gives you everything you need to create the first Skill on `claude.ai`.
+
+## Quick reference
+
+| Field | Value |
+|---|---|
+| **Name** | `Three-Section Policy Brief Format` |
+| **Description** | `Format outputs as a 300-word three-section policy brief grounded in a source document.` |
+| **Instructions** | See "Instructions body" below — paste everything below the `---` line |
+| **Reference file** *(if Skill Creator accepts attachments)* | `03-drafter-project-knowledge.md` |
+| **Attach to (after creation)** | The **Policy Brief Drafter** Project |
+
+## How to create it on `claude.ai`
+
+1. Click your profile (bottom-left) → **Settings** → **Capabilities** → **Skills** → **Create skill**. (If the Skills menu lives somewhere else in your account, look under *Capabilities* or as a top-level sidebar entry.)
+2. The Skill Creator opens in one of two modes:
+   - **Form mode:** fields for Name, Description, Instructions. Fill them in directly from the table above.
+   - **Chat mode:** Claude asks you to describe what the Skill should do. Paste the body below the `---` line at the bottom of this file. Claude generates the Skill for you.
+3. If a *Reference file* field appears, attach `03-drafter-project-knowledge.md`. If not, skip — the same file goes into the Drafter Project's knowledge tab in the next setup step.
+4. Click **Create**.
+
+## Attach it to the Project
+
+Open the **Policy Brief Drafter** Project → settings → **Skills** (or **Capabilities**) → toggle *Three-Section Policy Brief Format* on. Save.
 
 ---
+
+## Instructions body — paste below this line into the Skill Creator
 
 Create a Skill called "Three-Section Policy Brief Format".
 
